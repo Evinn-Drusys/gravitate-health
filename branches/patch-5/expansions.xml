@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="24cda6e2-49bc-4e11-8db8-ab4aed214146"/>
+  <id value="4b414972-b0a9-4678-9409-9dd3adcce9d6"/>
   <meta>
-    <lastUpdated value="2022-12-20T12:36:33.738+00:00"/>
+    <lastUpdated value="2022-12-20T13:12:12.790+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -44,7 +44,7 @@
         <title value="Ingredient Role; e.g., inactive, active base, active moiety"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -61,8 +61,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0aee9bab-9cb2-459b-b3c3-7ff417658098"/>
-          <timestamp value="2022-12-20T12:37:37+00:00"/>
+          <identifier value="urn:uuid:10fad81e-97b0-43ef-a539-337184861061"/>
+          <timestamp value="2022-12-20T13:13:09+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -122,7 +122,7 @@
         <title value="Organization identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -139,8 +139,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:35c553fd-467e-49c6-afe6-f68df2c120d7"/>
-          <timestamp value="2022-12-20T12:37:40+00:00"/>
+          <identifier value="urn:uuid:49dc4f40-dc5f-45ce-b37d-14546425c92a"/>
+          <timestamp value="2022-12-20T13:13:11+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -201,7 +201,7 @@
         <title value="Units of Measure"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -218,8 +218,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d9eb9c6d-6f6a-4533-ab3c-ab41a9d71f10"/>
-          <timestamp value="2022-12-20T12:37:41+00:00"/>
+          <identifier value="urn:uuid:0f9e9d72-dfc9-44cc-9e0f-81410ee60d90"/>
+          <timestamp value="2022-12-20T13:13:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -279,7 +279,7 @@
         <title value="Product Confidentiality"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -296,8 +296,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c674b193-19a5-40e7-ad19-beb50cd77da9"/>
-          <timestamp value="2022-12-20T12:37:53+00:00"/>
+          <identifier value="urn:uuid:332a053c-d97c-48d1-8a8d-92c9b8f42d8b"/>
+          <timestamp value="2022-12-20T13:13:25+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -358,7 +358,7 @@
         <title value="Score on the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -375,8 +375,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:979eb9ae-92ea-4e94-9349-92588f417630"/>
-          <timestamp value="2022-12-20T12:37:53+00:00"/>
+          <identifier value="urn:uuid:700b40d1-67b9-41cd-a076-736672910185"/>
+          <timestamp value="2022-12-20T13:13:26+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -436,7 +436,7 @@
         <title value="Data Carrier Identifiers"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -453,8 +453,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d61df088-5031-4ce2-80a5-245062bd6c81"/>
-          <timestamp value="2022-12-20T12:37:58+00:00"/>
+          <identifier value="urn:uuid:17723e77-b46d-4c28-87ca-48742ce56f22"/>
+          <timestamp value="2022-12-20T13:13:30+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -514,7 +514,7 @@
         <title value="ManufacturedItemDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -531,8 +531,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:61981625-ce2d-4eea-a2ef-c28cfa50a052"/>
-          <timestamp value="2022-12-20T12:38:06+00:00"/>
+          <identifier value="urn:uuid:47859192-e37a-4fc4-97d0-0142f4e93146"/>
+          <timestamp value="2022-12-20T13:13:39+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -593,7 +593,7 @@
         <title value="Regulated Authorization Type identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -610,8 +610,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:32876b5c-677b-478a-980e-0b90982435f4"/>
-          <timestamp value="2022-12-20T12:38:07+00:00"/>
+          <identifier value="urn:uuid:67c106e4-94b2-4209-81de-63d5d4570621"/>
+          <timestamp value="2022-12-20T13:13:39+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -672,7 +672,7 @@
         <title value="MedicinalProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -689,8 +689,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:044fcf8b-8b72-4b4e-b33f-e3f7c7198375"/>
-          <timestamp value="2022-12-20T12:38:08+00:00"/>
+          <identifier value="urn:uuid:cf5e57c0-f374-410a-afbd-dc8367362ede"/>
+          <timestamp value="2022-12-20T13:13:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -751,7 +751,7 @@
         <title value="The topic of this list"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -768,8 +768,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:84aaf5a9-da32-4e8d-afb6-4b02feb6e3ef"/>
-          <timestamp value="2022-12-20T12:38:13+00:00"/>
+          <identifier value="urn:uuid:f788f035-5453-4e71-b5f9-22bb320e4120"/>
+          <timestamp value="2022-12-20T13:13:45+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -837,7 +837,7 @@
         <title value="AdministrableProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -854,8 +854,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5a7372cb-b452-4026-b6fa-5ea5e38768dc"/>
-          <timestamp value="2022-12-20T12:38:16+00:00"/>
+          <identifier value="urn:uuid:f9edb16c-e55d-4099-a9a6-c0e18b189376"/>
+          <timestamp value="2022-12-20T13:13:49+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7914,7 +7914,7 @@
         <title value="WHO ATC"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -7935,8 +7935,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:3e1267fe-011e-4d84-9db0-c901e640d076"/>
-          <timestamp value="2022-12-20T12:38:16+00:00"/>
+          <identifier value="urn:uuid:1b4ccc53-0232-449d-8515-bed506ba5dc1"/>
+          <timestamp value="2022-12-20T13:13:50+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12992,7 +12992,7 @@
         <title value="Flavor of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13009,8 +13009,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:39c2c0e0-4639-413e-b949-24e73e38fd36"/>
-          <timestamp value="2022-12-20T12:38:19+00:00"/>
+          <identifier value="urn:uuid:35f9b0d8-cd19-4fda-9948-bb237092e2b6"/>
+          <timestamp value="2022-12-20T13:13:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13089,7 +13089,7 @@
         <title value="High level Pack Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13106,8 +13106,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ef938285-0f4a-4f48-822c-e41c98c60556"/>
-          <timestamp value="2022-12-20T12:38:22+00:00"/>
+          <identifier value="urn:uuid:9508d6ab-57de-4510-8fdd-7fc576852af5"/>
+          <timestamp value="2022-12-20T13:13:56+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13174,7 +13174,7 @@
         <title value="Case System Identifiers"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13191,8 +13191,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:08c0137d-fc19-49c6-b44f-f748fdb48633"/>
-          <timestamp value="2022-12-20T12:38:36+00:00"/>
+          <identifier value="urn:uuid:b75a4202-f7b3-4bbb-b928-557c4e7613ec"/>
+          <timestamp value="2022-12-20T13:14:10+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13252,7 +13252,7 @@
         <title value="Color of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13269,8 +13269,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:525cd8ad-5b48-411e-8999-06751d2da5e3"/>
-          <timestamp value="2022-12-20T12:38:37+00:00"/>
+          <identifier value="urn:uuid:2a9b6484-ffe6-421e-8dae-0bf85e3a6153"/>
+          <timestamp value="2022-12-20T13:14:10+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13330,7 +13330,7 @@
         <title value="Units of Presentation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13347,8 +13347,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fef82e5d-1b66-4ffc-97f5-a91614f94d89"/>
-          <timestamp value="2022-12-20T12:38:38+00:00"/>
+          <identifier value="urn:uuid:9fa8f73f-c33c-4a3d-804a-59c1edd35f29"/>
+          <timestamp value="2022-12-20T13:14:12+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13408,7 +13408,7 @@
         <title value="PackagedProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13425,8 +13425,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4ed31736-d1bf-46bb-8d0e-2c36f2dd44bd"/>
-          <timestamp value="2022-12-20T12:38:39+00:00"/>
+          <identifier value="urn:uuid:292f0e9f-ffd9-410e-8be8-52187f04a1e3"/>
+          <timestamp value="2022-12-20T13:14:12+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13487,7 +13487,7 @@
         <title value="General Status used across ePI resources"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -13504,8 +13504,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0c44215a-9487-42d8-9a77-99b806b63469"/>
-          <timestamp value="2022-12-20T12:38:43+00:00"/>
+          <identifier value="urn:uuid:25d2a3cc-f498-45d5-baeb-24e35aa2f8ba"/>
+          <timestamp value="2022-12-20T13:14:16+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17052,7 +17052,7 @@
         <title value="ISO Country two letter code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -17069,8 +17069,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:08be3add-6db6-4486-b2ad-adb434ce12b2"/>
-          <timestamp value="2022-12-20T12:38:43+00:00"/>
+          <identifier value="urn:uuid:c11c2301-004f-4231-b1c6-f8dee0031a93"/>
+          <timestamp value="2022-12-20T13:14:16+00:00"/>
           <total value="498"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19624,7 +19624,7 @@
         <title value="Shape of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19641,8 +19641,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a527eb26-8f4b-4578-a6a3-5d26cfef0b0c"/>
-          <timestamp value="2022-12-20T12:38:47+00:00"/>
+          <identifier value="urn:uuid:c7447191-94cf-4ada-9b8b-7b793b4ce0a6"/>
+          <timestamp value="2022-12-20T13:14:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19702,7 +19702,7 @@
         <title value="Regulatory Activity Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19719,8 +19719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c917fdeb-6837-474a-84ae-fbd391f51d1d"/>
-          <timestamp value="2022-12-20T12:38:47+00:00"/>
+          <identifier value="urn:uuid:bee268b2-0b8c-482a-923b-68b0acbdac21"/>
+          <timestamp value="2022-12-20T13:14:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19780,7 +19780,7 @@
         <title value="Surface form of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-12-20T12:36:33+00:00"/>
+        <date value="2022-12-20T13:12:12+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19797,8 +19797,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:04cf1685-0f25-4c73-9fb9-41a4c6d48e35"/>
-          <timestamp value="2022-12-20T12:38:47+00:00"/>
+          <identifier value="urn:uuid:963972ac-ce3d-43fb-bb4d-ae8cb06bd5ab"/>
+          <timestamp value="2022-12-20T13:14:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
