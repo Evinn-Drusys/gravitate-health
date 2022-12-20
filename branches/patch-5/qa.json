@@ -1,0 +1,12 @@
+{
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info",
+  "name" : "EpiIG",
+  "package-id" : "hl7.fhir.uv.emedicinal-product-info",
+  "ig-ver" : "1.0.0-ballot",
+  "date" : "Tue, 20 Dec, 2022 12:36:33 +0000",
+  "errs" : 58,
+  "warnings" : 64,
+  "hints" : 152,
+  "version" : "5.0.0-snapshot3",
+  "tool" : "5.0.0-snapshot2 (3)"
+}
