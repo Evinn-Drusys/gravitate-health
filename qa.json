@@ -3,7 +3,7 @@
   "name" : "EpiIG",
   "package-id" : "hl7.fhir.uv.emedicinal-product-info",
   "ig-ver" : "1.0.0-ballot",
-  "date" : "Tue, 20 Dec, 2022 12:36:33 +0000",
+  "date" : "Tue, 20 Dec, 2022 13:12:12 +0000",
   "errs" : 58,
   "warnings" : 64,
   "hints" : 152,

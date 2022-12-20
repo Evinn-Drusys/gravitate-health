@@ -2,8 +2,8 @@
 =========================================
 
 err = 58, warn = 64, info = 152
-IG Publisher Version: 1.2.25 Out of date - current version is ?pub-ver-1?
-Generated Tue Dec 20 12:40:00 UTC 2022. FHIR version 5.0.0-snapshot3 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
+IG Publisher Version: 1.2.25
+Generated Tue Dec 20 13:15:35 UTC 2022. FHIR version 5.0.0-snapshot3 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-0eeb7689-35ca-4e3e-ab7f-c903eb77e421 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-2f18f09a-7299-4b3f-8291-5a4cf862b7d7 : 0 / 0 / 5
