@@ -1,49 +1,99 @@
 {
-  "package": "hl7.eu.fhir.gh",
-  "version": "0.1.0",
-  "fhirVersion": "4.1.0",
+  "package": "hl7.fhir.uv.emedicinal-product-info",
+  "version": "1.0.0-ballot",
+  "fhirVersion": "5.0.0-snapshot3",
+  "jurisdiction": "001",
   "extensions": [],
   "profiles": {
-    "MedicationStatement": [
+    "AdministrableProductDefinition": [
       {
-        "url": "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/medicationStatement-eu-gh",
-        "title": "MedicationStatement (Gravitate Health)"
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+        "title": "AdministrableProductDefinition (ePI)"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+        "title": "Bundle - ePI"
+      }
+    ],
+    "ClinicalUseDefinition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+        "title": "ClinicalUseDefinition Contraindication (ePI)"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+        "title": "ClinicalUseDefinition Indication (ePI)"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+        "title": "ClinicalUseDefinition Interaction (ePI)"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
+        "title": "ClinicalUseDefinition Undesirable Effect (ePI)"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+        "title": "ClinicalUseDefinition Warning (ePI)"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+        "title": "Composition (ePI)"
+      }
+    ],
+    "Ingredient": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+        "title": "Ingredient (ePI)"
+      }
+    ],
+    "ManufacturedItemDefinition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+        "title": "ManufacturedItemDefinition (ePI)"
+      }
+    ],
+    "MedicinalProductDefinition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+        "title": "MedicinalProductDefinition (ePI)"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+        "title": "Organization (ePI)"
+      }
+    ],
+    "PackagedProductDefinition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+        "title": "PackagedProductDefinition (ePI)"
+      }
+    ],
+    "RegulatedAuthorization": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+        "title": "RegulatedAuthorization (ePI)"
+      }
+    ],
+    "SubstanceDefinition": [
+      {
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+        "title": "SubstanceDefinition (ePI)"
       }
     ]
   },
   "usage": {
-    "http://ema.europa.eu/fhir/extension/active-substance": [
-      "List.subject"
-    ],
-    "http://ema.europa.eu/fhir/extension/documentType": [
-      "List.entry.item"
-    ],
-    "http://ema.europa.eu/fhir/extension/domain": [
-      "List.subject"
-    ],
-    "http://ema.europa.eu/fhir/extension/dummyValidationReference": [
-      "Bundle.entry.resource"
-    ],
-    "http://ema.europa.eu/fhir/extension/language": [
-      "List.entry.item"
-    ],
-    "http://ema.europa.eu/fhir/extension/marketing-authorization-holder": [
-      "List.subject"
-    ],
-    "http://ema.europa.eu/fhir/extension/medicine-name": [
-      "List.subject"
-    ],
-    "http://gravitatehealth.eu/fhir/StructureDefinition/gravitate-dk-package-leaflet-url": [
-      "Bundle.entry.resource"
-    ],
-    "http://gravitatehealth.eu/fhir/StructureDefinition/gravitate-dk-package-number": [
-      "Bundle.entry.resource"
-    ],
-    "http://gravitatehealth.eu/fhir/StructureDefinition/gravitate-dosageperiod": [
-      "Bundle.entry.resource.dosage"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/data-absent-reason": [
-      "MedicationStatement.effective[x]"
+    "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.format",
+      "CapabilityStatement.implementationGuide",
+      "CapabilityStatement.rest.resource.interaction",
+      "CapabilityStatement.rest.resource.supportedProfile"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -63,17 +113,42 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
-    "http://hl7.org/fhir/StructureDefinition/translation": [
-      "Bundle.entry.resource.code.coding.display"
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/build/StructureDefinition/binding-definition": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/build/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/additional-binding": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://medicinpriser.dk/indikation": [
-      "Bundle.entry.resource"
     ]
   }
 }
